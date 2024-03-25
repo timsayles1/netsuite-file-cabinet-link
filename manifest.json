@@ -1,0 +1,25 @@
+{
+  "name": "NetSuite File Cabinet Links",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "description": "Replace the NetSuite File Cabinet Folder links",
+  "author": "Timothy Sayles",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "NetSuite File Cabinet Links",
+    "default_icon": "ns-file-link.png"
+  },
+  "icons": {
+   "128": "ns-file-link.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "nsfiles.js"
+      ],
+      "matches": [
+        "https://*.netsuite.com/app/common/media/mediaitemfolders.nl?*"
+      ]
+    }
+  ]
+}
