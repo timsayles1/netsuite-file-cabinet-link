@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "version": "1.0.0",
   "description": "Replace the NetSuite File Cabinet Folder links",
-  "author": "Timothy Sayles",
+  "author": "timsaymhi@github",
   "action": {
     "default_popup": "popup.html",
     "default_title": "NetSuite File Cabinet Links",
